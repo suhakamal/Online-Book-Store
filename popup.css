@@ -1,0 +1,43 @@
+ .CartPopup {
+    color: black;
+    display: none;
+
+    position: fixed;
+    bottom: 0;
+    left: 10em;
+    margin-right: 10em;
+  }
+  
+
+  .CartContainer {
+    font-size: 0.7em;
+    width: 70%;
+    height: 33.5em;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 4px; 
+    margin-bottom: 0.5em;
+    
+}
+
+#TheCart{
+  width: 70%;
+}
+
+#close{
+  margin-top: 1em;
+  padding: 1em 10.5em;
+  border: 4px solid transparent;
+  border-radius: 4px;
+  background-color: brown;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+#close:hover{
+  background-color: black;
+}
+
+  

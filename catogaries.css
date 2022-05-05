@@ -1,0 +1,159 @@
+#catogaryindex{
+  font-family: cursive;
+  color: white;
+  background-color: rgba(0, 0, 0);
+  background-image: url("background2.jpg");
+  background-color: rgba(41, 12, 12, 0.514);
+  background-blend-mode: color-burn;
+  background-size: 100%;
+  margin: 0;
+}
+
+header{
+  background-color: black;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.753);
+  padding-top: 0.5em;  
+}
+img{
+  width: 100%;
+  height: 200px;
+  padding: 0;
+}
+
+#catogary{
+  text-align: center;
+  padding-bottom: 0.5em;
+  margin-bottom: 0em; 
+}
+
+h3{
+  font-size: 1.8em;
+  margin-left: 2em;
+  color:white 
+}
+
+
+#para{
+  text-indent: 4em;
+  font-size: 1.4em;
+  margin: auto 3em;
+  text-align: justify;
+}
+
+* {
+  box-sizing: border-box;
+  }
+  
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+  
+
+.row {  
+  margin-left: 5em;
+}
+  
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+ 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+} 
+
+#card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding:0;
+  text-align: center;
+  width: 20%;
+  margin: 1em;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 5px; 
+}
+
+#card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgb(223, 64, 64);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top:5px;
+}
+  
+#card button:hover {
+  background-color: black;
+}
+
+
+
+h4{
+  padding-bottom: 0;
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.price{
+  color: grey;
+  text-align: center;
+}
+
+#found{
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding:0;
+  text-align: center;
+  width: 20%;
+  margin-top: 1em;
+  margin-left: 40%;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+#found button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+  
+
+#found button:hover {
+  background-color: rgb(223, 64, 64);
+  color: white;
+}
+
+#FoundPara{
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  color: red;
+  background-color: white;
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}

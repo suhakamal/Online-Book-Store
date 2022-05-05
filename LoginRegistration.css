@@ -1,0 +1,146 @@
+/* if you don't have an internet connection please replace the following code to #H1Login
+#H1Login{
+    margin-top: 4em;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@900&display=swap');
+/*Login Style*/
+
+
+
+body{
+    font-family: sans-serif;
+    margin: 3em;
+    margin-bottom: 0;
+    background-image: url("background.jpg");
+    background-color: rgba(41, 12, 12, 0.514);
+    background-blend-mode: color-burn;
+    background-size: 100%;
+    
+}
+#H1Login{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 6em;
+    color: white;
+    text-align: center;
+    font-family: Tangerine,sans-serif;
+}
+
+.err{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+#LoginForm{
+    margin-left: 37%;
+    margin-top: 4em;
+}
+
+
+
+#email{
+    margin-left: 4.5em;
+    margin-bottom: 1em;
+}
+
+#password{
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.placeholder, ::placeholder{
+    border: none;
+    padding: 1em;
+    border-radius: 4px;
+}
+
+
+label{
+    color: white;
+    font-size: 1.2em
+}
+#LoginButton{
+    margin-left: -10em;
+}
+#RegisterButton{
+    margin-left: 1em;
+}
+#RegisterButton:hover, #LoginButton:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+button{
+    margin-top: 1em;
+    padding: 1em 10.5em;
+    border: 4px solid transparent;
+    border-radius: 4px;
+    background-color: brown;
+    color: white
+}
+
+
+
+
+
+/*Register Style*/
+#RegisterBody{
+    margin-top: 0;
+    background-image: url("background.jpg");
+    background-color: rgba(41, 12, 12, 0.514);
+    background-blend-mode: color-burn;
+}
+
+#H1Register{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+
+    font-family: Tangerine,sans-serif;
+}
+
+#RegisterForm{
+    margin-top: 2em;
+    margin-left: 25%;
+}
+
+.RegisterLabel{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+hr{
+    border: solid 2px white;
+    border-radius: 4px;
+}
+
+#RegisterPlaceholder {
+    width: 67%;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+#SignupButton{
+    margin-top: 0;
+    width: 45%;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+#SignupButton:hover{
+    background-color: black;
+}
+
+#CancelButton{
+    margin-top: 0;
+    width: 45%;
+    margin-left: -8em;
+    cursor: pointer;
+}
+
+#CancelButton:hover{
+    background-color: red;
+}

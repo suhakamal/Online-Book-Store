@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@900&display=swap');
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            
+        }
+       h1{
+           margin-top: 1em;
+           text-align:center;
+           font-family: Tangerine,sans-serif;
+           font-size: 3em;
+           color: white;
+       }
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0);
+            background-image: url("background.jpg");
+            background-color: rgba(41, 12, 12, 0.514);
+            background-blend-mode: color-burn;
+            background-size: 100%;
+        }
+        #logout{
+            position: absolute;
+            text-decoration-line: none;
+            padding: 0.9em 5em;
+            color: white;
+            background-color: brown;
+            width: 100%;
+            text-align: center;
+            left: 0;
+        }
+
+        #logout:hover{
+            background-color: black;
+            cursor: pointer;
+        }
+        .BooksContainer {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 2em;
+        }
+
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table td, table th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        table tr:nth-child(odd) {
+            background-color: rgb(184, 184, 184);
+        }
+
+        table tr:hover {
+            background-color: #ddd;
+        }
+
+       table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            color: black;
+            text-align: center;
+        }
+
+
+        /*edit*/
+        h2{
+            color: white;
+            font-size: 1.9em;
+            font-family: Tangerine,sans-serif;
+            text-align: center;
+            font-size: 3em;
+        }
+         button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: rgb(223, 64, 64);
+            text-align: center;
+            cursor: pointer;
+            width: 50%;
+            font-size: 18px;
+            margin-top:5px;
+            margin-left: 20em;
+          }
+        button:hover{
+            background-color: black;
+        }

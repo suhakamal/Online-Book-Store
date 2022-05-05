@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    text-align: justify;
+    font-family: cursive;
+    background-color: hsl(221, 39%, 11%);
+    color: lightskyblue;
+}
+header{
+    text-align: center;
+    color: rgb(223, 64, 64);
+    background-color: rgb(246, 250, 211);
+    padding-bottom: 2em;
+}
+section{
+    width: 50%;
+    margin: 3em;
+    margin-bottom: 1em;
+}
+.para{
+    text-indent: 2em;
+    font-size: 1.3em;
+}
+#side{
+    font-size: 1.3em;
+}
+img{
+    width: 100%;
+    border-radius: 4px;
+}
+#card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding:0;
+    text-align: center;
+    width: 15%;
+    background-color: #0f172a;
+    color: white;
+    border-radius: 10px; 
+    position: absolute;
+    right: 10em;
+    top: 10em;
+    padding-bottom: 1em;
+}
+a{
+    color: cyan;
+}
